@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="653.0" prefWidth="991.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.senai.hm.controller.UsuarioController">
+   <children>
+      <TitledPane animated="false" layoutX="10.0" layoutY="44.0" prefHeight="255.0" prefWidth="969.0" text="Dados para cadastro">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="220.0" prefWidth="900.0">
+               <children>
+                  <TextField layoutX="80.0" layoutY="20.0" prefHeight="30.0" prefWidth="250.0" promptText="Digite seu nome..." />
+                  <Label layoutX="20.0" layoutY="20.0" prefHeight="30.0" prefWidth="65.0" text="Nome:  ">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="20.0" layoutY="70.0" prefHeight="30.0" prefWidth="60.0" text="Email: ">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="598.0" layoutY="20.0" prefHeight="30.0" prefWidth="96.0" text="Permissão: ">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="20.0" layoutY="120.0" prefHeight="30.0" prefWidth="60.0" text="Login:">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="543.0" layoutY="120.0" prefHeight="30.0" prefWidth="195.0" text="Confirmação de Senha: ">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="290.0" layoutY="120.0" prefHeight="30.0" prefWidth="60.0" text="Senha:">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="80.0" layoutY="120.0" prefHeight="30.0" prefWidth="150.0" />
+                  <TextField layoutX="80.0" layoutY="70.0" prefHeight="30.0" prefWidth="869.0" />
+                  <ComboBox layoutX="707.0" layoutY="20.0" prefHeight="30.0" prefWidth="241.0" promptText="Perimsssão..." />
+                  <PasswordField layoutX="350.0" layoutY="122.0" prefHeight="30.0" prefWidth="149.0" />
+                  <PasswordField layoutX="738.0" layoutY="120.0" prefHeight="30.0" prefWidth="207.0" />
+               </children>
+            </AnchorPane>
+        </content>
+      </TitledPane>
+      <TableView layoutX="14.0" layoutY="360.0" prefHeight="255.0" prefWidth="739.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Código" />
+            <TableColumn minWidth="0.0" prefWidth="212.0" text="Login" />
+            <TableColumn prefWidth="161.0" text="Permissão" />
+            <TableColumn minWidth="0.0" prefWidth="88.0" text="Status" />
+          <TableColumn prefWidth="202.0" text="Nome" />
+        </columns>
+      </TableView>
+      <Button layoutX="820.0" layoutY="444.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="60.0" text="Salvar" />
+      <Button layoutX="820.0" layoutY="486.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="60.0" text="Inativar" />
+      <Button layoutX="820.0" layoutY="401.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="60.0" text="Novo" />
+      <Button layoutX="820.0" layoutY="529.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="60.0" text="Sair" />
+      <ImageView fitHeight="30.0" fitWidth="34.0" layoutX="207.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../TelasDesktop/zoom.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="11.0" layoutY="312.0" prefHeight="30.0" prefWidth="187.0" promptText="Pesquise o nome" />
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <MenuBar prefHeight="25.0" prefWidth="991.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</Pane>

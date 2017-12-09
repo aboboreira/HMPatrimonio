@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="623.0" prefWidth="1026.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar prefHeight="25.0" prefWidth="1026.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TableView layoutX="14.0" layoutY="334.0" prefHeight="254.0" prefWidth="692.0">
+        <columns>
+          <TableColumn prefWidth="100.0" text="Nº Identificador" />
+          <TableColumn minWidth="0.0" prefWidth="123.0" text="Ambiente" />
+            <TableColumn prefWidth="206.0" text="Descrição" />
+            <TableColumn minWidth="0.0" prefWidth="85.0" text="Modelo" />
+            <TableColumn prefWidth="94.0" text="Situação" />
+            <TableColumn prefWidth="83.0" text="Status" />
+        </columns>
+      </TableView>
+      <TitledPane animated="false" layoutX="14.0" layoutY="42.0" text="Dados para cadastro">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="258.0" prefWidth="990.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="787.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@semimagem.jpg" />
+                     </image>
+                  </ImageView>
+                  <ComboBox layoutX="157.0" layoutY="108.0" prefWidth="150.0" />
+               </children>
+            </AnchorPane>
+        </content>
+      </TitledPane>
+      <Button layoutX="840.0" layoutY="545.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" text="Detalhar" />
+      <TextField layoutX="815.0" layoutY="336.0" prefHeight="30.0" prefWidth="154.0" />
+      <Label layoutX="717.0" layoutY="340.0" text="Descrição: ">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="726.0" layoutY="400.0" text="Ambiente: ">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="815.0" layoutY="400.0" prefHeight="30.0" prefWidth="154.0" />
+      <Label layoutX="726.0" layoutY="464.0" text="Modelo: ">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="815.0" layoutY="464.0" prefHeight="30.0" prefWidth="154.0" />
+      <TextField layoutX="172.0" layoutY="85.0" prefHeight="30.0" />
+      <Button layoutX="926.0" layoutY="256.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" text="Sair" />
+      <Button layoutX="842.0" layoutY="258.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" text="Salvar" />
+      <Button layoutX="754.0" layoutY="258.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" text="Novo" />
+      <DatePicker layoutX="156.0" layoutY="254.0" />
+      <ComboBox layoutX="472.0" layoutY="254.0" prefWidth="150.0" />
+      <ComboBox layoutX="472.0" layoutY="211.0" prefWidth="150.0" />
+      <RadioButton layoutX="243.0" layoutY="216.0" mnemonicParsing="false" text="Seminovo" />
+      <RadioButton layoutX="178.0" layoutY="218.0" mnemonicParsing="false" text="Novo" />
+      <TextField layoutX="463.0" layoutY="168.0" prefHeight="30.0" prefWidth="155.0" />
+      <Label layoutX="359.0" layoutY="256.0" text="Fornecedor: ">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <TextField editable="false" layoutX="463.0" layoutY="130.0" prefHeight="30.0" prefWidth="154.0" />
+      <TextField layoutX="463.0" layoutY="81.0" prefHeight="30.0" prefWidth="64.0" />
+      <TextField layoutX="172.0" layoutY="127.0" prefHeight="30.0" />
+      <Label layoutX="24.0" layoutY="88.0" text="Nº Identificador: ">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="374.0" layoutY="130.0" text="Descrição: ">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="357.0" layoutY="173.0" text="Localização: ">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="375.0" layoutY="213.0" text="Categoria: ">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="743.0" layoutY="85.0" text="Foto: ">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="216.0" text="Sitaução: ">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="256.0" text="Data Entrada: ">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="177.0" text="Modelo:">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="130.0" text="Valor Unitario: ">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="399.0" layoutY="85.0" text="Qtd: ">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

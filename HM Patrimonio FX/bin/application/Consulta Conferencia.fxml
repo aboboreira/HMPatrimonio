@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="463.0" prefWidth="723.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TitledPane animated="false" layoutX="14.0" layoutY="21.0" prefHeight="380.0" text="Conferencias Agendadas">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="412.0" prefWidth="697.0">
+               <children>
+                  <TableView layoutX="21.0" layoutY="70.0" prefHeight="269.0" prefWidth="655.0">
+                     <columns>
+                        <TableColumn prefWidth="58.0" text="Código" />
+                        <TableColumn prefWidth="152.0" text="Data de Agendamento" />
+                        <TableColumn prefWidth="232.0" text="Ambiente" />
+                        <TableColumn prefWidth="96.0" text="Inconsistencias" />
+                        <TableColumn prefWidth="115.0" text="Status" />
+                     </columns>
+                  </TableView>
+                  <Label layoutX="21.0" layoutY="17.0" prefHeight="30.0" text="Realizada: ">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Label>
+                  <RadioButton layoutX="119.0" layoutY="24.0" mnemonicParsing="false" text="Sim" />
+                  <RadioButton layoutX="165.0" layoutY="24.0" mnemonicParsing="false" text="Não" />
+                  <Label layoutX="461.0" layoutY="15.0" prefHeight="30.0" text="Data atual: ">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Label>
+                  <DatePicker layoutX="550.0" layoutY="19.0" prefHeight="25.0" prefWidth="139.0" />
+               </children>
+            </AnchorPane>
+        </content>
+      </TitledPane>
+      <Button layoutX="552.0" layoutY="412.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" text="Detalhar" />
+      <Button layoutX="632.0" layoutY="412.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" text="Sair" />
+   </children>
+</Pane>

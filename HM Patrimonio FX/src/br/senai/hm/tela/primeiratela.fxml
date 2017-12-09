@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="253.0" prefWidth="600.0" text="Acesso ao Sistema" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="227.0" prefWidth="507.0">
+         <children>
+            <TextField layoutX="178.0" layoutY="65.0" />
+            <TextField layoutX="178.0" layoutY="119.0" />
+            <Label layoutX="112.0" layoutY="123.0" text="Senha: " />
+            <Label layoutX="113.0" layoutY="69.0" text="Login: " />
+            <Button layoutX="375.0" layoutY="158.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="77.0" text="Acessar" />
+            <Button layoutX="188.0" layoutY="163.0" mnemonicParsing="false" text="Esqueci minha senha" />
+            <ImageView fitHeight="96.0" fitWidth="135.0" layoutX="367.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@acesso.jpg" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+  </content>
+</TitledPane>
